@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+    padding: 10px 0;
+    background-color: rgb(36, 34, 34);
+    color: #ecf0f1;
+    text-align: center;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section img {
+    height: 450px;
+    width: 480px;
+    margin-right: 32px;
+}
+
+section {
+    padding: 24px 0;
+    background-color: black;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #ecf0f1;
+    font-size: 32px;
+    margin-left: 8px;
+}
+
+section p{
+    margin-bottom: 8px;
+    color: #ecf0f1;
+    margin-left: 8px;
+}
+
+section .noticias{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: black;
+    
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    height: 280px;
+    width: 80%;
+}
+
+.articles article{
+    width: 30%;
+}
+
+.articles header {
+    align-self: auto;
+    background-color: black;
+}
+
+.articles p{
+    width: 100%;
+    margin-left: 0;
+    color: #ecf0f1;
+}
+
+section .noticias{
+    padding: 16px 0;
+}
+
+section .noticias h2{
+    color: #ecf0f1e;
+    width: 80%;
+}
+
+section h3{
+    margin-bottom: 16px;
+    color: #ecf0f1;
+}
+
+.articles article a{
+    background-color: #ecf0f1;
+    color: black;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+section .game{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: black;
+    
+}
+
+section .jogo img{
+    height: 280px;
+    width: 50%;
+}
+
+section .game h2{
+    margin-bottom: 16px;    
+    width: 80%;
+}
+
+.jogo h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.jogo article p{
+    margin-top: 16px;
+    margin-left: 0;
+    width: 40%;
+}
+
+footer{
+    background-color: black;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
